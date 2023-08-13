@@ -1,0 +1,13 @@
+
+html {
+
+    background-color:rgb(135, 216, 236);
+    font-weight: 400;
+    background-image: image('Assets/images/download-this-awesome-wallpaper-wallpaper-cave.jpeg');
+}
+
+
+.aks_text {
+
+    color: rgb(157, 44, 209);
+}
