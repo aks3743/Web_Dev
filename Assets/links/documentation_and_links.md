@@ -77,3 +77,51 @@ bolder
         border-width : 0px(1&3) 10px(2&4)
     }
 ~~~
+
+
+## Combining css selectors
+
+### group rule 
+
+~~~css
+    selector, selector {
+        color: red
+    }
+~~~
+
+### child -> apply to direct child of left side
+
+applicable only one level inside of parent and child selectors
+~~~css
+    selector (parent) > selector (child) {
+        color: red
+    }
+~~~
+
+### descendant -> Apply to a decendat of left side 
+
+to change all selectors inside the first selector
+~~~css
+    selector (parent)  selector (child) {
+        color: red
+    }
+~~~
+
+### chaining
+
+apply where all selectors are free. no spaces btween the selectors. targets the spcifc selector combo
+
+eg : h1#id.class.cass2 (all values)
+~~~css
+    selectorselector {
+        color: red
+    }
+~~~
+
+### combining combiners
+
+~~~css
+    selector(parent) selectorselector {
+        color: red
+    }
+~~~
